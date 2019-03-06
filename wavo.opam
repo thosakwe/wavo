@@ -6,7 +6,7 @@ maintainer: "thosakwe@gmail.com"
 authors: ["Tobe O"]
 homepage: "https://github.com/thosakwe/wavo"
 bug-reports: "https://github.com/thosakwe/wavo/issues"
-dev-repo: "https://github.com/thosakwe/wavo.git"
+dev-repo: "git//github.com/thosakwe/wavo.git"
 license: "GPL-3.0"
 build: [
   ["dune" "build" "-p" name "-j" jobs]
