@@ -6,3 +6,5 @@
 *.cmx
 *.cmxa
 *.cmi
+*.install
+_build/
