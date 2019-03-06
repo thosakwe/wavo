@@ -1,6 +1,6 @@
 extern printf(u8* str): i64
 
 fn main(): i64 {
-  printf("Hello, world!\n");
+  printf("Hello, world!\n")
   ret 0
 }
