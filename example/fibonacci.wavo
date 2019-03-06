@@ -1,0 +1,14 @@
+extern printf(u8* fmt, i64 value): i64
+
+fn fibonacci(n: i64) {
+  if (n <= 1)
+    ret n
+  else
+    ret fibonacci(n - 1) + fibonacci(n - 2)
+}
+
+fn main(): i64 {
+  var res = fibonacci(13)
+  printf("fib(13) = %d\n", res)
+  ret 0
+}

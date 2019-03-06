@@ -1,0 +1,8 @@
+*.swo
+*.swp
+*.o
+*.a
+*.cmo
+*.cmx
+*.cmxa
+*.cmi
