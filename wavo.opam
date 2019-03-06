@@ -1,6 +1,13 @@
 opam-version: "2.0"
 name: "wavo"
 version: "0.0"
+synopsis: "Simple compiler for a C-like language"
+maintainer: "thosakwe@gmail.com"
+authors: ["Tobe O"]
+homepage: "https://github.com/thosakwe/wavo"
+bug-reports: "https://github.com/thosakwe/wavo/issues"
+dev-repo: "https://github.com/thosakwe/wavo.git"
+license: "GPL-3.0"
 build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
