@@ -1,0 +1,7 @@
+(executables
+  (names main)
+  (libraries wavo))
+
+(install
+    (section bin)
+    (files (main.exe as wavo)))

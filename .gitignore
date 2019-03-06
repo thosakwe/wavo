@@ -8,3 +8,4 @@
 *.cmi
 *.install
 _build/
+.merlin
