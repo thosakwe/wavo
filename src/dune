@@ -1,2 +1,6 @@
 (library
   (public_name wavo))
+(menhir
+  (merge_into wavo)
+  (modules parser))
+(ocamllex lexer)

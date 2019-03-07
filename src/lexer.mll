@@ -1,6 +1,6 @@
 {
   open Lexing
-
+  open Parser
   exception SyntaxError of string
 }
 
@@ -9,7 +9,7 @@ let whitespace = [' ' '\r' '\t' '\n']+
 let id = ['A'-'Z' 'a'-'z' '_'] ['A'-'Z' 'a'-'z' '0'-'9' '_']*
 
 rule token = parse
-  | whitespace ;
+  | whitespace { token lexbuf }
   | '{' { LCURLY }
   | '}' { RCURLY }
   | '(' { LPAREN }

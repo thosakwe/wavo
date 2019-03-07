@@ -32,8 +32,8 @@ stmt:
 ;
 
 block:
-  | LCURLY v=list(stmt) RCURLY { stmt }
-  | v=stmt { [stmt] }
+  | LCURLY v=list(stmt) RCURLY { v }
+  | v=stmt { [v] }
 ;
 
 param:

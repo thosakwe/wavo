@@ -22,7 +22,6 @@ type extern_decl_ctx = {
   name: string;
   returns: type_ctx;
   params: (string * type_ctx) list;
-  body: stmt_ctx list;
 }
 
 type top_level_ctx =
